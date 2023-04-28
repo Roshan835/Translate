@@ -1,5 +1,4 @@
 import streamlit as st
-import googletrans
 from googletrans import Translator
 st.header('Machine Translation Demo')
 input = st.text_area("Please enter the text", value="")
